@@ -12,7 +12,7 @@ function LoginTemplate() {
     return ( 
     <>
     <div className="h-[95vh] flex justify-center  pt-[5rem]  bg-no-repeat bg-center  bg-cover  z-0  bg-opacity-60  "   style={{backgroundImage: "url('/images/10.png')"}} >
-    <section className="h-[65%] min-w-[600px] border-2 flex flex-row items-center  rounded-[50px] z-1  bg-white opacity-[100%] max-2xl:h-[80%] ">
+    <section className="h-[65%] min-w-[600px] border-2 flex flex-row items-center  rounded-[50px] z-1  bg-white  lg:h-[70%] xl-[70%]  ">
     <LoginBox />
     </section>
     </div> 
