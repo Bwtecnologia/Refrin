@@ -49,7 +49,7 @@ export default function LoginFormArea() {
       <form className=" w-[100%] p-[3rem] pt-[0] ">
         <InputText
           text="Username"
-          styleText="text-[25px] font-semibold text-gray-600 max-xl:text-[20px]"
+          styleText="text-[20px] mb-[1rem]  font-semibold text-gray-600 max-xl:text-[20px]   "
         />
         <LoginInput
         type="text"
@@ -58,7 +58,7 @@ export default function LoginFormArea() {
         />
         <InputText
           text="Password"
-          styleText="text-[25px] font-semibold text-gray-600 mt-[1rem] max-xl:text-[20px]  "
+          styleText="text-[20px] mb-[1rem]  font-semibold text-gray-600 mt-[1rem] max-xl:text-[20px]  "
         />
         <LoginInput type="password" label="*******" onChange={handlePasswordChange} />
         <InputText
@@ -67,7 +67,7 @@ export default function LoginFormArea() {
         />
         <button
           onClick={handleLogin}
-          className="font-semibold text-[20px]    bg-blue-300 rounded-[10px] h-[60px] w-[100%] text-white  max-xl:h-[50px]"
+          className="font-semibold text-[20px]    bg-blue-300 rounded-[10px] h-[60px] w-[100%] text-white  max-xl:h-[50px] max-2xl:h-[50px] max-2xl:mb-[3rem]  "
         >
           entrar
         </button>
